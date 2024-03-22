@@ -1,0 +1,21 @@
+a {
+  color: black;
+}
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: end;
+}
+.ulLinks {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+}
+.ulrrss {
+  display: flex;
+  gap: 1em;
+}
+.ulrrss > li > a > img {
+  height: 20px;
+}

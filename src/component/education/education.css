@@ -1,0 +1,22 @@
+.divEducationContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid grey;
+}
+.articleEducation > h2 {
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+.divFirstColumnEducation {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.divSecondColumnEducation {
+  display: flex;
+  flex-direction: column;
+}

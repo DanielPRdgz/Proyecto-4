@@ -1,0 +1,27 @@
+#my-techStack {
+  margin: 5em;
+}
+.infoSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.infoSkills > h3 {
+  font-weight: 800;
+  font-size: 30px;
+  color: rgb(54, 54, 54);
+  margin-bottom: 0.5em;
+}
+.articleSkills {
+  display: flex;
+}
+.ulSkills {
+  width: 100%;
+  display: flex;
+  margin-top: 5em;
+  gap: 4em;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

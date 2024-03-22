@@ -1,0 +1,23 @@
+.divJobContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid grey;
+}
+.articleWorkExperience > h2 {
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+.divFirstColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.divSecondColumn {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
