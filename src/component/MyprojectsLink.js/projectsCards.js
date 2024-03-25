@@ -12,15 +12,19 @@ export const projectCards = (item, div) => {
   const h5 = document.createElement('h5')
   const p = document.createElement('p')
   const a = document.createElement('a')
+  const aLive = document.createElement('a')
   img.src = item.preview
   h5.textContent = item.title
   p.textContent = item.description
-  a.href = item.link
-  a.textContent = item.link
-  divImg.appendChild(img)
+  a.href = item.linkGitHub
+  a.textContent = '◽GitHub'
+  aLive.href = item.linkProject
+  aLive.textContent = '◽Live Preview'
+  a.href = divImg.appendChild(img)
   divInfo.appendChild(h5)
   divInfo.appendChild(p)
   divLinks.appendChild(a)
+  divLinks.appendChild(aLive)
   articleCard.appendChild(divImg)
   articleCard.appendChild(divInfo)
   articleCard.appendChild(divLinks)
