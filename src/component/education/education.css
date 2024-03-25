@@ -1,15 +1,20 @@
 .divEducationContainer {
   display: flex;
-  width: 50%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1em;
   padding-bottom: 0.5em;
   border-bottom: 1px solid grey;
 }
+.articleEducation {
+  width: 60%;
+}
 .articleEducation > h2 {
   font-size: 30px;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  color: #42446e;
+  text-align: center;
 }
 .divFirstColumnEducation {
   display: flex;

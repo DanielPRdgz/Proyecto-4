@@ -1,9 +1,9 @@
 export const data = {
   logo: 'https://res.cloudinary.com/dj1axfhui/image/upload/v1711021625/pngtree-coding-logo-template-illustration-design-png-image_5673078_owtf2c.png',
-  hero: 'Hi👋,\nMy name is Daniel PR\nI build things for web',
+  hero: 'Hi👋,\nMy name is\n Daniel PR\nI build things for web',
   logoHero:
     'https://res.cloudinary.com/dj1axfhui/image/upload/v1711019230/_88026a48-1e04-4b6a-865f-bea792601127_ycyd1m.jpg',
-  tlf: '📱 +34 63478716x',
+  tlf: '📱 +34 634787163',
   name: 'Daniel Prieto',
   address: 'La Rinconada,Sevilla',
   email: '✉ prietorodriguezdaniel@gmail.com',
@@ -28,8 +28,7 @@ export const data = {
     {
       position: 'Host',
       company: 'HardRock',
-      startDate: '2016',
-      endDate: '2021',
+      period: '2018-2023',
       description:
         'I welcome guests warmly, manage reservations, and ensure a smooth dining experience.',
       location: 'Seville',
@@ -38,8 +37,7 @@ export const data = {
     {
       position: 'Tourist Assistant',
       company: 'City Expert',
-      startDate: '2021',
-      endDate: '2022',
+      period: '2017-2018',
       description:
         'I assist travelers with navigation, information, and ensuring a pleasant experience.',
       location: 'Seville',

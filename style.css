@@ -7,6 +7,39 @@
   text-decoration: none;
 }
 
+p {
+  color: #666666;
+}
 body {
   font-family: 'Roboto', sans-serif;
+}
+body.dark {
+  background-color: #191919;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #cccccc;
+  }
+  a {
+    color: #cccccc;
+  }
+  .articleCard {
+    background-color: #363636;
+  }
+  .ulrrss > li > a > img {
+    background-color: #a7a7a7;
+    border-radius: 100px;
+  }
+  .ulrrssFooter > li > a > img {
+    background-color: #a7a7a7;
+    border-radius: 100px;
+  }
+  .imgLogo {
+    background-color: whitesmoke;
+    border-radius: 100px;
+    height: 50px;
+  }
 }

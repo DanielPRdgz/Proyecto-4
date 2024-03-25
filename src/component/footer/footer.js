@@ -1,6 +1,7 @@
 import { linkHeader, linkrrss } from '../HeaderLinks/links'
 import { data } from '../data/data'
 import { navLinks, rrss } from '../utils/navLinks'
+
 import './footer.css'
 
 export const footer = () => {
@@ -12,10 +13,7 @@ export const footer = () => {
   divContainerLogoContact.classList.add('containerLogoContact')
   const divContactFooter = document.createElement('div')
   divContactFooter.classList.add('divContactFooter')
-  const pTlf = document.createElement('p')
-  const peMail = document.createElement('p')
-  pTlf.textContent = data.tlf
-  peMail.textContent = data.email
+
   const nav = document.createElement('nav')
   nav.classList.add('navFooter')
   const ul = document.createElement('ul')
@@ -23,13 +21,12 @@ export const footer = () => {
   const ulrrss = document.createElement('ul')
   ulrrss.classList.add('ulrrssFooter')
 
-  divContactFooter.appendChild(pTlf)
-  divContactFooter.appendChild(peMail)
   divContainerLogoContact.appendChild(imgLogo)
   divContainerLogoContact.appendChild(divContactFooter)
 
-  for (const link of navLinks) {
-    linkHeader(ul, link)
+  for (let i = 0; i < navLinks.length; i++) {
+    const linkId = `navLink${i + 1}`
+    linkHeader(ul, navLinks[i], linkId)
   }
   for (const key in rrss) {
     const url = rrss[key]

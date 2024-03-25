@@ -1,7 +1,9 @@
 .articleAboutMe {
-  width: 50%;
+  width: 60%;
 }
 .articleAboutMe > h2 {
   font-size: 30px;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  color: #42446e;
+  text-align: center;
 }

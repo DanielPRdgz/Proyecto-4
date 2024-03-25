@@ -9,11 +9,10 @@ export const workExperience = (section, job, article) => {
   const h4Position = document.createElement('h4')
   const pCompany = document.createElement('p')
   const pDes = document.createElement('p')
-  const pStart = document.createElement('p')
-  const pEnd = document.createElement('p')
+  const pPeriod = document.createElement('p')
   const pLocation = document.createElement('p')
   const pStatus = document.createElement('p')
-
+  pStatus.classList.add('pStatus')
   h4Position.textContent = job.position
   pCompany.textContent = job.company
   pLocation.textContent = job.location
@@ -25,12 +24,11 @@ export const workExperience = (section, job, article) => {
   divFirstColumn.appendChild(pDes)
 
   pStatus.textContent = job.status
-  pStart.textContent = job.startDate
-  pEnd.textContent = job.endDate
+  pPeriod.textContent = job.period
 
   divSecondColumn.appendChild(pStatus)
-  divSecondColumn.appendChild(pStart)
-  divSecondColumn.appendChild(pEnd)
+  divSecondColumn.appendChild(pPeriod)
+
   divJob.appendChild(divFirstColumn)
   divJob.appendChild(divSecondColumn)
   article.appendChild(divJob)

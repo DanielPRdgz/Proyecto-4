@@ -2,18 +2,21 @@
   margin: 5em;
   margin-top: 5em;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  height: 30vh;
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
 .divInfo > h1 {
   font-size: 50px;
   white-space: pre-line;
+  color: #42446e;
 }
 
 .divImg {
   height: 300px;
-  min-width: 300px;
+  min-height: 300px;
 }
 
 .divImg > img {

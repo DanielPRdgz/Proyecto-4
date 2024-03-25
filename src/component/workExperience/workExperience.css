@@ -1,15 +1,20 @@
 .divJobContainer {
   display: flex;
-  width: 50%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1em;
   padding-bottom: 0.5em;
   border-bottom: 1px solid grey;
 }
+.articleWorkExperience {
+  width: 60%;
+}
 .articleWorkExperience > h2 {
   font-size: 30px;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  color: #42446e;
+  text-align: center;
 }
 .divFirstColumn {
   display: flex;
@@ -20,4 +25,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+.pStatus {
+  margin-bottom: 1em;
+  background-color: rgb(165, 255, 165);
+  padding: 5px;
+  border-radius: 10px;
 }
