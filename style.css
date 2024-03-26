@@ -13,3 +13,18 @@ p {
 body {
   font-family: 'Roboto', sans-serif;
 }
+#buttonHam {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #buttonHam {
+    display: inline-block;
+  }
+}
+@media (max-width: 425px) {
+  .navFooter {
+    flex-direction: column;
+    gap: 2em;
+  }
+}

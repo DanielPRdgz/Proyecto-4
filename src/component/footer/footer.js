@@ -1,4 +1,8 @@
 import { linkHeader, linkrrss } from '../HeaderLinks/links'
+import {
+  evenListenerHeader,
+  evenListenerHeaderFooter
+} from '../ListenerNavHeader/evenListenerHeader'
 
 import { data } from '../data/data'
 import { navLinks, rrss } from '../utils/navLinks'
@@ -26,16 +30,18 @@ export const footer = () => {
   divContainerLogoContact.appendChild(divContactFooter)
 
   for (let i = 0; i < navLinks.length; i++) {
-    const linkId = `navLink${i + 1}`
+    const linkId = `navLink${i + 6}`
     linkHeader(ul, navLinks[i], linkId)
   }
+
   for (const key in rrss) {
-    const url = rrss[key]
-    linkrrss(ulrrss, url)
+    const { imageUrl, pageUrl } = rrss[key]
+    linkrrss(ulrrss, key, imageUrl, pageUrl)
   }
 
   footer.appendChild(divContainerLogoContact)
   footer.appendChild(nav)
   nav.appendChild(ul)
   nav.appendChild(ulrrss)
+  evenListenerHeaderFooter()
 }

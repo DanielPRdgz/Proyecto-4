@@ -1,8 +1,10 @@
 import { linkHeader, linkrrss } from '../HeaderLinks/links'
 import { evenListenerHeader } from '../ListenerNavHeader/evenListenerHeader'
+
 import { buttonNight } from '../Nightmode/nightmode'
 
 import { data } from '../data/data'
+import { menuHam } from '../menuHam/menuHam'
 import { navLinks, rrss } from '../utils/navLinks'
 
 import './header.css'
@@ -12,6 +14,7 @@ export const header = () => {
   imgLogo.classList.add('imgLogo')
   imgLogo.src = data.logo
   buttonNight()
+  menuHam()
   const nav = document.createElement('nav')
   const ul = document.createElement('ul')
   ul.classList.add('ulLinks')
@@ -24,12 +27,13 @@ export const header = () => {
   }
 
   for (const key in rrss) {
-    const url = rrss[key]
-    linkrrss(ulrrss, url)
+    const { imageUrl, pageUrl } = rrss[key]
+    linkrrss(ulrrss, key, imageUrl, pageUrl)
   }
 
   header.appendChild(imgLogo)
   header.appendChild(buttonNight())
+  header.appendChild(menuHam())
   nav.appendChild(ul)
   nav.appendChild(ulrrss)
   header.appendChild(nav)

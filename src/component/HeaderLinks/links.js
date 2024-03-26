@@ -7,16 +7,14 @@ export const linkHeader = (ul, link, id) => {
   a.href = '#'
   li.appendChild(a)
   ul.appendChild(li)
-  
-  
 }
 
-export const linkrrss = (ul, url) => {
+export const linkrrss = (ul, key, imageUrl, pageUrl) => {
   const li = document.createElement('li')
   const img = document.createElement('img')
   const a = document.createElement('a')
-  a.href = '#'
-  img.src = url
+  a.href = pageUrl
+  img.src = imageUrl
   a.appendChild(img)
   li.appendChild(a)
   ul.appendChild(li)

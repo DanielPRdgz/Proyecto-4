@@ -14,6 +14,7 @@ export const projectCards = (item, div) => {
   const a = document.createElement('a')
   const aLive = document.createElement('a')
   img.src = item.preview
+  img.alt = item.alt
   h5.textContent = item.title
   p.textContent = item.description
   a.href = item.linkGitHub

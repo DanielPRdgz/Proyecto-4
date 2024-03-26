@@ -26,3 +26,8 @@
   border-radius: 50%;
   border: 5px solid rgb(139, 228, 255);
 }
+@media (max-width: 768px) {
+  .divInfo {
+    margin-bottom: 5em;
+  }
+}
