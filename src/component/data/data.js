@@ -50,7 +50,7 @@ export const data = {
       description: "Technologies I've been working with recently"
     },
     {
-      Html: 'https://res.cloudinary.com/dj1axfhui/image/upload/v1711013427/vscode-icons_file-type-html_jn7ktl.svg',
+      Html: 'https://res.cloudinary.com/dj1axfhui/image/upload/v1711535918/vscode-icons_file-type-html_1_bdrqcd.svg',
       Css: 'https://res.cloudinary.com/dj1axfhui/image/upload/v1711013427/vscode-icons_file-type-css_u6urwm.svg',
       Js: 'https://res.cloudinary.com/dj1axfhui/image/upload/v1711013427/vscode-icons_file-type-js-official_j24g4a.svg',
       React:
