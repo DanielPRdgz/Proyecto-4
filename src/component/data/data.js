@@ -58,7 +58,7 @@ export const data = {
       VsCode:
         'https://res.cloudinary.com/dj1axfhui/image/upload/v1711013428/vscode-icons_file-type-vscode_rn03ps.svg',
       Github:
-        'https://res.cloudinary.com/dj1axfhui/image/upload/v1711013427/akar-icons_github-fill_tsnyt8.svg',
+        'https://res.cloudinary.com/dj1axfhui/image/upload/v1711534021/b51b78ecc9e5711274931774e433b5e6_1_-modified_anlbdv.png',
       Git: 'https://res.cloudinary.com/dj1axfhui/image/upload/v1711013427/logos_git-icon_fxqy7y.svg'
     }
   ],
@@ -105,9 +105,9 @@ export const data = {
         'Your portfolio, developed using HTML, CSS, and JavaScript, presents your professional profile dynamically. It offers an aesthetically pleasing layout that adapts to various devices.',
 
       linkGitHub: 'https://github.com/DanielPRdgz/Proyecto-4',
-      linkProject: 'https://spontaneous-marzipan-28b9ab.netlify.app',
+      linkProject: 'https://exploremyportfolio.netlify.app',
       preview:
-        'https://res.cloudinary.com/dj1axfhui/image/upload/v1711530839/Captura_de_pantalla_2024-03-27_101101_csucz8.jpg',
+        'https://res.cloudinary.com/dj1axfhui/image/upload/v1711532776/this_mih36h.jpg',
       alt: 'A portfolio page'
     }
   ]

@@ -24,3 +24,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.ulSkills > li > a > img {
+  height: 120px;
+  width: 120px;
+}

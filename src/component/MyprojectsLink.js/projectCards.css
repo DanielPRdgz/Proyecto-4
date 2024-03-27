@@ -38,6 +38,10 @@
 }
 
 .divInfoCard {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+
   text-align: center;
   padding: 1em;
 }
@@ -46,6 +50,7 @@
   margin: 0;
   font-weight: 800;
   font-size: 20px;
+  margin-bottom: 3em;
 }
 
 .divLinksCard {
