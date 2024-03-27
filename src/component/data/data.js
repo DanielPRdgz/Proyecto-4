@@ -68,32 +68,47 @@ export const data = {
       description: "Things I've build so far"
     },
     {
-      title: 'E-commerce Website',
+      title: 'iPixel Photography',
       description:
-        'Designed and developed a feature-rich e-commerce platform with advanced product search, user reviews, and a secure payment system, resulting in a 30% increase in sales for the client.',
-      linkGitHub: 'http://github.com/#',
-      linkProject: '#',
+        'iPixel is a website that utilizes the Unsplash API for quickly and easily searching for high-quality photographs.',
+      linkGitHub: 'https://github.com/DanielPRdgz/Proyecto-3',
+      linkProject: 'https://ipixelphotography.netlify.app',
       preview:
-        'https://plus.unsplash.com/premium_photo-1684785618727-378a3a5e91c5?auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww&w=500',
-      alt: 'e-Commerce photo'
+        'https://res.cloudinary.com/dj1axfhui/image/upload/v1711530839/Captura_de_pantalla_2024-03-27_101316_tawrhe.jpg',
+      alt: 'Main page iPixelPhotography'
     },
     {
-      title: 'Blog Platform',
+      title: 'Born2Ride',
       description:
-        'Created a customizable blog platform with dynamic content creation, user authentication, comment functionality, and social media integration, leading to a 50% growth in user engagement.',
-      link: 'http://github.com/#',
+        'Born2ride is a motorcycle enthusiast website where users can easily filter and browse through helmets by price and brand.',
+
+      linkGitHub: 'https://github.com/DanielPRdgz/Proyecto-2',
+      linkProject: 'https://born2ride.netlify.app',
       preview:
-        'https://plus.unsplash.com/premium_photo-1684581214880-2043e5bc8b8b?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070',
-      alt: 'A book,tea,and a note.'
+        'https://res.cloudinary.com/dj1axfhui/image/upload/v1711530839/Captura_de_pantalla_2024-03-27_101223_wev6fu.jpg',
+      alt: 'Main page Born2Ride'
     },
     {
-      title: 'Portfolio Website',
+      title: 'Storm Page',
       description:
-        'Built a professional portfolio website to showcase my web development skills and projects. The site features a clean, responsive design and highlights my work as a developer.',
-      link: 'http://github.com/#',
+        "Storm Page is a responsive website featuring a variety of snowboards. It's designed with HTML and CSS to practice responsive web design techniques, ensuring optimal viewing on all devices.",
+
+      linkGitHub: 'https://github.com/DanielPRdgz/Proyecto-1',
+      linkProject: 'https://spontaneous-marzipan-28b9ab.netlify.app',
       preview:
-        'https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2071',
-      alt: 'Just a chair in front of the table with a mac over it'
+        'https://res.cloudinary.com/dj1axfhui/image/upload/v1711530839/Captura_de_pantalla_2024-03-27_101101_csucz8.jpg',
+      alt: 'Nitro Snowboards main page Storm Page'
+    },
+    {
+      title: 'Portfolio',
+      description:
+        'Your portfolio, developed using HTML, CSS, and JavaScript, presents your professional profile dynamically. It offers an aesthetically pleasing layout that adapts to various devices.',
+
+      linkGitHub: 'https://github.com/DanielPRdgz/Proyecto-4',
+      linkProject: 'https://spontaneous-marzipan-28b9ab.netlify.app',
+      preview:
+        'https://res.cloudinary.com/dj1axfhui/image/upload/v1711530839/Captura_de_pantalla_2024-03-27_101101_csucz8.jpg',
+      alt: 'A portfolio page'
     }
   ]
 }

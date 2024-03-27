@@ -67,8 +67,15 @@ body.dark {
     border-radius: 100px;
   }
   .imgLogo {
-    background-color: whitesmoke;
-    border-radius: 100px;
-    height: 50px;
+    filter: invert(100);
+  }
+  #buttonHam {
+    filter: invert(100);
+  }
+  .navMenuHam.active {
+    background-color: #242424;
+  }
+  .quitButton {
+    filter: invert(100);
   }
 }

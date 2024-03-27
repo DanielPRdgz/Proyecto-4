@@ -21,7 +21,7 @@ export const projectCards = (item, div) => {
   a.textContent = '◽GitHub'
   aLive.href = item.linkProject
   aLive.textContent = '◽Live Preview'
-  a.href = divImg.appendChild(img)
+  divImg.appendChild(img)
   divInfo.appendChild(h5)
   divInfo.appendChild(p)
   divLinks.appendChild(a)
