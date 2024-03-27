@@ -9,7 +9,7 @@
   height: 50px;
   margin-right: 2em;
 }
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .ulLinks {
     display: none;
   }

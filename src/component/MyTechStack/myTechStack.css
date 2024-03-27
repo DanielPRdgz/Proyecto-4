@@ -24,7 +24,13 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
 .ulSkills > li > a > img {
   height: 120px;
   width: 120px;
+  cursor: auto;
+  transition: 0.3s ease;
+}
+.ulSkills > li > a > img:hover {
+  transform: scale(1.1);
 }

@@ -17,7 +17,7 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   #buttonHam {
     display: inline-block;
     top: 85px;
