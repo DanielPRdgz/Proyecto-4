@@ -29,13 +29,14 @@ export const createDivHam = () => {
   document.body.appendChild(nav)
   evenListenerHeaderMenuHam()
 }
+createDivHam()
 export const menuHam = () => {
   const buttonHam = document.createElement('img')
   buttonHam.id = 'buttonHam'
   buttonHam.src =
     'https://res.cloudinary.com/dj1axfhui/image/upload/v1706642019/menu_1_gi1vrb.png'
+
   buttonHam.addEventListener('click', () => {
-    createDivHam()
     const navMenuHam = document.querySelector('.navMenuHam')
     navMenuHam.classList.toggle('active')
   })

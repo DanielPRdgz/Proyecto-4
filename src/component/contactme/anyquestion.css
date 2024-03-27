@@ -1,7 +1,11 @@
 #anyquestion {
+  margin: 1em;
+  margin-top: 10em;
   display: flex;
+  flex-direction: column;
+  gap: 7em;
   justify-content: center;
-  margin-top: 1em;
+  align-items: center;
 }
 h2 {
   color: #42446e;

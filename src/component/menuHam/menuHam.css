@@ -23,10 +23,10 @@
   display: none;
   background-color: rgb(255, 255, 255);
   position: absolute;
-  top: 200px;
+  top: 0;
   left: 0;
   width: 100vw;
-  height: 40vh;
+  height: 50vh;
   opacity: 100%;
 
   justify-content: center;

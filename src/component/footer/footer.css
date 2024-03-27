@@ -1,8 +1,11 @@
 #footer {
+  margin: 1em;
+  margin-top: 10em;
   display: flex;
+  flex-direction: column;
+  gap: em;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  margin: 5em;
 }
 .containerLogoContact {
   display: flex;

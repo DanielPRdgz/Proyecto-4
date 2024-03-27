@@ -10,7 +10,7 @@ nav {
 .ulLinks {
   display: flex;
   width: 50%;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .ulLinks > li {
   cursor: pointer;

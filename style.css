@@ -20,11 +20,73 @@ body {
 @media (max-width: 768px) {
   #buttonHam {
     display: inline-block;
+    top: 85px;
+    left: 20px;
+  }
+  .articleAboutMe {
+    width: 90%;
+  }
+  .articleWorkExperience {
+    width: 90%;
+  }
+  .articleEducation {
+    width: 90%;
+  }
+  .divAny {
+    width: 90%;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
+  .divJobContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid grey;
+  }
   .navFooter {
     flex-direction: column;
     gap: 2em;
   }
+  #buttonHam {
+    top: 85px;
+    left: 0;
+  }
+  .ulrrss {
+    display: none;
+  }
+  #switch {
+    top: 85px;
+    right: 10px;
+    position: absolute;
+  }
+  .ulLinksFooter {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .articleAboutMe {
+    width: 95%;
+  }
+  .articleWorkExperience {
+    width: 95%;
+  }
+  .articleEducation {
+    width: 95%;
+  }
+  .divAny {
+    width: 95%;
+  }
+  .divAny > h3 {
+    font-size: 15px;
+  }
+  .ulLinksFooter {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
 }
