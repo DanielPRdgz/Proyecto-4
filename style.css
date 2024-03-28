@@ -37,6 +37,10 @@ body {
   }
 }
 @media (max-width: 500px) {
+  #header {
+    margin-left: 5em;
+    margin-top: 2em;
+  }
   .divJobContainer {
     display: flex;
     flex-direction: column;
@@ -54,14 +58,14 @@ body {
     gap: 2em;
   }
   #buttonHam {
-    top: 85px;
+    top: 37px;
     left: 0;
   }
   .ulrrss {
     display: none;
   }
   #switch {
-    top: 85px;
+    top: 37px;
     right: 10px;
     position: absolute;
   }
